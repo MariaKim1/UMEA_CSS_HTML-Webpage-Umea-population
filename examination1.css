@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    background-color: #F1F1F1;
+}
+
+header {
+    background-color: #F4B4C5;
+    margin-bottom: 40px;
+}
+
+h1 {
+    color: #F1F1F1;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Roboto Slab', serif;
+}
+
