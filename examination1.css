@@ -6,10 +6,8 @@ body {
 #main_container {
     background-color: #ffffff;
     width: 640px;
-    margin-top: 100px;
-    padding-bottom: 20px; /* fick lägga både padding-bottom här och i footer för att länkknappen skulle "lyfta" fr botten */
-    margin-right: auto;
-    margin-left: auto;
+    margin: 100px auto 100px auto; /* lade till margin-bottom utöver instruktionerna för att #main-container skulle "lyfta" fr kanten, som annars satt som limmad */
+    padding-bottom: 20px; /* fick lägga både padding-bottom här och i footer för att länkknappen skulle "lyfta" fr botten i vita #main_container */
 }
 
 header {
@@ -26,9 +24,9 @@ h1 {
     padding: 20px;
 }
 
-/* #video_graph {
-   
-} */
+/* #video_graph {} 
+Behöver jag skriva all styling inline i video-taggen, eller kan jag skriva här i CSS ist? och isf med vilka properties?
+*/
 
 h2 {
     font-family: 'Roboto Slab', serif;
@@ -56,10 +54,8 @@ footer {
     display: block;
     text-align: center;
     padding-top: 5px;
-    padding-bottom: 20px; 
+    padding-bottom: 20px;
 }
-
-
 
 a {
     padding: 20px;
