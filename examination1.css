@@ -65,9 +65,10 @@ a {
     background-color: #F4B4C5;
     width: 300px;
     text-transform: uppercase;
+    transition-duration: 1s;
 }
 
 a:hover {
     background-color: #1ED760;
-    transition-duration: 1s;
 }
+
